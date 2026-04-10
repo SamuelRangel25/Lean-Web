@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Animais Perdidos</title>
+
+  <style>
+    /* RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    #btn1 {
+      text-decoration: none;
+      background: green;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 20px 0;
+      display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center; /* centraliza */
+    }
+    #btn2 {
+      text-decoration: none;
+      background: green;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 15px 0;
+      display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center; /* centraliza */
+    }
+    #btn3 {
+      text-decoration: none;
+      background: green;
+      color: white;
+      padding: 10px;
+      border-radius: 10px;
+      margin: 5px 0;
+      display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center; /* centraliza */
+    }
+    
+    /* FUNDO CENTRALIZADO */
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    }
+
+    /* CARTÃO */
+    .card {
+      width: 420px;
+      background: #fff;
+      border-radius: 20px;
+      padding: 100px;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+    }
+    /* FOTO */
+    .foto {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 0px;
+      object-fit: cover;
+    }
+
+    /* NOME */
+    h1 {
+      font-size: 22px;
+      margin-bottom: 5px;
+    }
+
+    /* PROFISSÃO */
+    .profissao {
+      color: gray;
+      margin-bottom: 20px;
+    }
+
+    /* CONTATO */
+    #contato p {
+      margin: 5px 0;
+      font-size: 14px;
+      text-decoration: none;
+      text-decoration: wavy;
+    }
+
+    .btn:hover {
+      background: #1ebe5d;
+      transform: scale(1.05);
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    
+    <!-- FOTO -->
+    <img src="Imagebolt.jpeg" class="foto">
+
+    <!-- NOME -->
+    <h1>Dono:Samuel Rangel</h1>
+
+    <!-- Cachorro -->
+    <p class="profissao">Cachorro:Bolt</p>
+<!--  -->
+    <!-- CONTATO -->
+    <div>
+
+      <a href="https://wa.me/5585999632828" id="btn1">📞 (85) 99963-2828</a>
+
+      <a href="https://www.instagram.com/samuel.rangelll/" id="btn2">📷 @Samuel.rangelll</a>
+
+      <a href=
+      "https://www.google.com/maps/place/Cometa+Supermercados+-+Maraponga/@-3.7917654,-38.5672138,3a,75y/data=!3m8!1e2!3m6!1sCIABIhAJRM-QYoVRwD314VqZGqOG!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FAHVAweo-8p7ifJZWvKYdxgqtz2WmnmAMTKwYxPApv9j3u64aQYrS-J5mTb_U1zhSmaRtxkeWqrY2dtjHROaI7Qez80rU5vRX9rbaV-tZq9rG1JKW6bH7ZqlK99KZHwoxjYXXj45XWPQ4aGt_ePJf%3Dw86-h152-k-no!7i2268!8i4032!4m7!3m6!1s0x7c74fab103fd249:0x2b15017b949d0e24!8m2!3d-3.7918263!4d-38.5671378!10e5!16s%2Fg%2F11sx0nw8j_?entry=ttu&g_ep=EgoyMDI2MDQwNS4wIKXMDSoASAFQAw%3D%3D"
+      id="btn3" >Última vez visto
+    </a>
+
+    </div>
+</body>
+</html>
